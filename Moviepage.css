@@ -1,0 +1,18 @@
+.Movie-Div{
+    width: 90%;
+    height: 340px;
+    border: 2px solid black;
+    margin: auto;
+}
+.series-info{
+    width: 90%;
+    margin: auto;
+}
+.outerDiv{
+    margin-left: 60px;
+}
+@media (min-width:650px) {
+    .Movie-Div{
+        height: 500px;
+    }
+}

@@ -1,0 +1,17 @@
+.frequent-answers{
+    display:none;
+    transition: all ;
+}
+
+@media (min-width:800px) {
+    .frequent-questions{
+width: 600px;
+padding: 30px;
+font-size: larger;
+    }
+    .frequent-answers{
+width: 600px;
+padding: 30px;
+font-size: larger;
+    }
+}

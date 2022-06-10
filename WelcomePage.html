@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+
+body{
+            margin: 0px;
+            padding: 0px;
+        color: white;
+        text-align: center;
+        background-color: black;
+        }
+    
+        #container-top{
+            background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/f841d4c7-10e1-40af-bcae-07a3f8dc141a/8e07a611-4ced-4d4e-81e6-d278862c952b/IN-en-20220502-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+            width: auto;
+            height: 600px;
+            padding: 1px;
+            background-position: center;
+            background-size: cover;
+        }
+
+        nav{
+            margin-bottom: 180px;
+        }
+     nav li{
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+    }
+     nav div{
+    float: right;
+    }
+
+    #logo{
+    color: red;
+    font-size: 24px;
+    }
+    #language-option{
+    width: 93px;
+    height: 28px;
+    border:1px solid white;
+    background-color: transparent;
+    color: white;
+    }
+
+    option{
+        background-color: grey;
+    }
+    #SignIn-button1{
+        width: 93px;
+        height: 28px;
+        background-color: red;
+        color: white;
+        border: none;
+    }
+
+    .container-text{
+        color: white;
+        text-align: center;
+        clear: both;
+    }
+
+    .email-elements{
+        text-align: center;
+    }
+    #email{
+        width: 350px;
+        height: 48px;
+
+    }
+    .btn-signIn-btn{
+        width: 140px;
+        height: 54px;
+        font-size: 20px;
+        background-color: red;
+        color: white;
+    }
+        .second-container{
+            padding-top: 1px;
+            width: 100%;
+            height: 440px;
+            background-color: black;
+            
+        }
+        .second-container-img{
+            min-width: 240px;
+            height: 240px;
+            margin:auto;
+            display: block;
+            background-color: white;
+        }
+        .second-container-text{
+            padding-top: 0px;
+            text-align: center;
+            color: white;
+            margin: 25px 15px;
+            padding-top: 15px;
+        }
+        .storyCard-title{
+            font-size:26px ;
+        }
+        .storyCard-subtitle{
+            font-size: 18px;
+        }
+    
+        .question-container{
+            background-color: black;
+            
+        }
+        .frequent-questions{
+            background-color: #303030;
+            width: 400px;
+            padding: 10px;
+            margin:auto;
+            margin-top: 8px;
+            border-radius: 2px;
+        }
+
+        .frequent-answers{
+            background-color: #303030;
+            width: 400px;
+            padding: 10px;
+            margin:auto;
+            margin-top: 1px;
+            border-radius: 2px;
+        }
+        .links-bottom-click{
+            display: grid;
+            list-style: none;
+            grid-template-columns: 1fr 1fr;
+            justify-items: start;
+            margin-left: 25%;
+            margin-top: 50px;
+            row-gap:2rem;
+            font-size: small;
+        }
+
+        a{
+            text-decoration: none;
+            color:#757575;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    </style>
+    <link rel="stylesheet" href="WelcomePage.css"> 
+</head>
+<body>
+    <div id="container-top">
+    <nav>
+      <ul>
+         <li id="logo">LOGO</li>
+         <div>
+         <li>
+         <select id="language-option">
+        <option value="English">English</option>
+        <option value="Hindi">हिन्दी</option>
+         </select>
+         </li>
+         <li><form action="LoginPage.html"><button id="SignIn-button1">SignIn</button></form></li>
+         </li>
+        </div>
+                
+    </ul>
+    </nav>
+    <br>
+    <div class="container-text">
+        <h1 class="storyCard-title">Unlimited movies, TV shows and more.</h1>
+    <h2 class="storyCard-subtitle">Watch anywhere. Cancel anytime.</h2>
+    <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+    </div>
+    <div class="email-elements">
+        <form action="#" id="myForm">
+            <input type="email" id="email" name="email" placeholder="Email address">
+        <button class="btn-signIn-btn">Get Started</button>
+        </form>
+        
+    </div>
+    
+    </div>
+    <div class="second-container">
+        <div class="second-container-text">
+            <h1 class="storyCard-title">Enjoy on your TV.</h1>
+            <h2 class="storyCard-subtitle">Watch on smart TVs, PlayStation, Xbox, Chromecast,
+                 Apple TV, Blu-ray players and more.</h2>
+ 
+        </div>
+        <img class="second-container-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png">
+    <hr>
+     </div>
+ 
+     <div class="second-container">
+         <div class="second-container-text">
+             <h1 class="storyCard-title">Download your shows to watch offline.</h1>
+             <h2 class="storyCard-subtitle">Save your favourites easily and always have
+                  something to watch.</h2>
+  
+         </div>
+         <img class="second-container-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg">
+     <hr>
+     </div>
+      
+ 
+      <div class="second-container">
+         <div class="second-container-text">
+             <h1 class="storyCard-title">Watch everywhere.</h1>
+             <h2 class="storyCard-subtitle">Stream unlimited movies and TV shows on
+                  your phone, tablet, laptop, and TV.</h2>
+  
+         </div>
+         <img class="second-container-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png">
+    <hr>
+     </div>
+      
+ 
+      <div class="second-container">
+         <div class="second-container-text">
+             <h1 class="storyCard-title">Create profiles for children.</h1>
+             <h2 class="storyCard-subtitle">Send children on adventures with their
+                  favourite characters in a space made just for 
+                  them—free with your membership.</h2>
+  
+         </div>
+         <img class="second-container-img" src="https://occ-0-6546-3647.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf">
+    <hr>
+    <div class="question-container">
+        <div class="Frequently-Asked-Question-heading">
+            <h1>Frequently Asked Questions</h1>
+        </div>
+        <div>
+            <section >
+                <div class="frequent-questions" id="Question1" onclick="Display1()" >
+                    How much does ONSTREAM Cost?
+                </div>
+                <div class="frequent-answers" id="Answer1">
+                    Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.
+                </div>
+
+            </section>
+            <section >
+                <div class="frequent-questions" id="Question2" onclick="Display2()">
+                    Where can I Watch?
+                </div>
+                <div class="frequent-answers" id="Answer2">
+                    Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+                    <br>
+                    You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+                </div>
+            </section>
+            <section >
+                <div class="frequent-questions" id="Question3" onclick="Display3()">
+                    How do I cancel?
+                </div>
+                <div class="frequent-answers" id="Answer3">
+                    ONSTREAM is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+                </div>
+            </section>
+            <section >
+                <div class="frequent-questions" id="Question4" onclick="Display4()">
+                    What can I watch on ONSTREAM?
+                </div>
+                <div class="frequent-answers" id="Answer4">
+                    ONSTREAM has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+                </div>
+            </section>
+            <hr>
+        </div>
+    </div>
+    <div class="second-container" id="more-links">
+<p>Questions? Call 000-800-040-1843</p>
+<div class="links-bottom-click">
+    <li class="link"><a href="FAQ.html">FAQ</a></li>
+    <li><a href="FAQ.html">Help Centre</a></li>
+    <li><a href="#">Account</a></li>
+    <li><a href="#">Media Centre</a></li>
+    <li><a href="#">Investor Relation</a></li>
+    <li><a href="#">Jobs</a></li>
+    <li><a href="#">Ways to Watch</a></li>
+    <li><a href="#">Terms of Use</a></li>
+    <li><a href="#">Privacy</a></li>
+    <li><a href="#">Cookie Preference</a></li>
+    <li><a href="#">Corporate Information</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li>
+        <select id="language-option">
+       <option value="English">English</option>
+       <option value="Hindi">हिन्दी</option>
+        </select>
+        </li>
+        </div>
+</div>
+
+     </div>
+     <script src="WelcomePage.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+}
+
+#signin-button{
+float: right;
+margin-top: 40px;
+margin-right: 50px;
+border: 0px;
+background: none;
+font-size: 19px;
+}
+
+#signin-button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#logo-link{
+float: left;
+margin-top: 40px;
+margin-left: 50px;
+text-decoration: none;
+color: red;
+font-size: 19px;
+}
+
+header{
+    border-bottom: 1px solid black;
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+.content-div{
+    text-align: center;
+}
+.plan{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.plan:active{
+    border: 2px solid blue;
+}
+.plan:active{
+    background-color: lightcoral;
+}
+.plan-details{
+    list-style: none;
+    padding-top: 60px;
+    color: white;
+    font-size: 22px;
+}
+.plan-details li{
+    margin-top: 10px;
+}
+
+#next-button{
+    width: 250px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.links{
+    height: 150px;
+    list-style: none;
+    display: grid;
+grid-template-columns: 1fr 1fr;
+font-size: small;
+margin-left: 10px;
+row-gap: 0px;
+margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: #757575;
+}
+.links li:hover{
+    text-decoration: underline;
+}
+.All-link-element{
+    background-color: #000000BF;
+    width: 100%;
+    padding: 5px;
+    margin-top: 70px;
+    color: #757575;
+}
+#language-option{
+    width: 93px;
+    height: 28px;
+    border:1px solid white;
+    background-color: transparent;
+    color: white;
+    }
+@media (min-width:650px) {
+    body{
+        background-color: black;
+        color: white;
+    }
+    .plan-blocks{
+        display: flex;
+        margin-top: 80px;
+    }
+    #signin-button{
+        color:red;
+    }
+    #next-button{
+        width: 400px;
+        margin-top: 40px;
+    }
+}

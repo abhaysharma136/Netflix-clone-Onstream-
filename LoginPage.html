@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        
+        body{
+            background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/59e045df-814d-4342-bf9d-e62ba23e916a/26b80b98-e1dc-48d2-ab1a-12b1001d959f/IN-en-20220418-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+            color: azure;
+        }
+        #email_address{
+            width: 314px;
+            height: 50px;
+            background-color: #333;
+        }
+        #Account-password{
+            width: 314px;
+            height: 50px;
+            background-color: #333;
+        }
+        button{
+            width: 316px;
+            padding-left: 1px;
+            padding-right: 1px;
+            margin-top: 24px;
+            height: 48px;
+            background-color: red;
+            color: white;
+            font-size: 16px;
+        }
+        #needhelp{
+            margin-left: 120px;
+            text-decoration: none;
+            color: white;
+        }
+        img{
+            width: 20px;
+            height: 20px;
+        }
+        #sign-up-Link{
+            text-decoration: none;
+            color: white;
+        }
+        #Learn-more-text{
+            width: 314px;
+        }
+        #Learn-more-link{
+            text-decoration:none;
+            color:#0071eb;
+            cursor: pointer;
+        }
+        #input-elements-all{
+            width:450px;
+            height: 530px;
+            background-color: rgba(0,0,0,.75);
+            margin: auto;
+            margin-top: 70px;
+        }
+        #Center-dispay-div{
+            position: relative;
+            transform: translateX(70px);
+            padding-top:50px;
+        }
+        #rememberMe-text{
+            color: #737373;
+        }
+        #New-User-text{
+            color:#737373;
+        }
+        #Learn-more-text{
+            color: #737373;
+        }
+    </style>
+    <link rel="stylesheet" href="LoginPage.css">
+</head>
+<body>
+    <diV id="input-elements-all">
+        <div id="Center-dispay-div">
+            <form action="#" id="myForm">
+                <h1>Sign In</h1>
+                <div id="loginInput">
+                    <label for="email_address"></label>
+                <input type="email" id="email_address" name="email" placeholder="email or phone number">
+                <br><br>
+                <label for="Account-password"></label>
+                <input type="password" id="Account-password" name="password" placeholder="Password">
+                <br>
+                <button class="SignIn_Button">Sign In</button>
+        
+                <br><br>
+        
+                <input type="checkbox">
+                <label for="rememberMe" id="rememberMe-text">Remember me</label>
+                <a href="Need_Help.html" id="needhelp">Need help?</a>
+            </form>
+                <p id="New-User-text"> New to Onstream? <span><a href="registrationPage1.html" id="sign-up-Link">Sign up now.</a></span></p>
+                <p id="Learn-more-text">This page is protected by Google reCAPTCHA to ensure you're not a bot.<span ><a href="#" id="Learn-more-link">Learn more.</a></span></p>
+                </div>
+        </div>
+        
+    </div>
+    <hr>
+    <div class="All-link-element">
+        <p>Questions? Call 000-800-040-1843</p>
+    <div class="links">
+<li><a href="FAQ.html">FAQ</a></li>
+<li><a href="FAQ.html">Help Centre</a></li>
+<li><a href="#">Terms of Use</a></li>
+<li><a href="#">Privacy</a></li>
+<li><a href="#">Cookie Preference</a></li>
+<li><a href="#">Corporate Information</a></li>
+<li>
+    <select id="language-option">
+   <option value="English">English</option>
+   <option value="Hindi">हिन्दी</option>
+    </select>
+    </li>
+    </div>
+    </div>
+    
+        <script src="LoginPage.js"></script>
+</body>
+</html>

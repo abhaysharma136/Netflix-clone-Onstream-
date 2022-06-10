@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            margin: 0px;
+        }
+    
+        #signin-button{
+        float: right;
+        margin-top: 40px;
+        margin-right: 50px;
+        border: 0px;
+        background: none;
+        font-size: 19px;
+        }
+
+        #signin-button:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        #logo-link{
+        float: left;
+        margin-top: 40px;
+        margin-left: 50px;
+        text-decoration: none;
+        color: red;
+        font-size: 19px;
+        }
+
+        header{
+            border-bottom: 1px solid black;
+            overflow: hidden;
+            padding-bottom: 25px;
+        }
+        #email-id{
+            width:440px;
+        height:60px;
+        margin-bottom:20px;;
+        }
+        #user-password{
+            width:440px;
+        height:60px;
+        margin-bottom: 20px;
+        }
+        #Next-button{
+            background-color: red;
+            color: white;
+            width: 449px;
+            height: 64px;
+            font-size:24px;
+            border-radius: 5px;
+        }
+        #component-main-elements{
+            width:440px;
+            margin: auto;
+            margin-top: 50px;
+        }
+        h1{
+            width: 430px;
+        }
+        h3{
+            width: 340px;
+        }
+        #password-alert{
+            color: red;
+            margin-top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="WelcomePage.html" id="logo-link">ONStream</a>
+        <form action="LoginPage.html">
+            <button id="signin-button">SIgn in</button>
+        </form>
+        
+    </header>
+
+    <div id="component-main-elements">
+        <p>Step 2 of 3</p>
+        <h1>Create a password to start your membership</h1>
+        <h3>Just a few more steps and you're done!
+            We hate paperwork, too.</h3>
+            <form action="#" id="myForm">
+            <input type="email" id="email-id" placeholder="Email" required>
+            <br>
+            <input type="password" id="user-password" placeholder="Add a Password" required minlength="8">
+            <p id="password-alert"></p>
+            <br>
+            
+                <button id="Next-button">Next</button>
+            </form>
+            
+    </div>
+    <script src="RegistrationPage2.js"></script>
+</body>
+</html>

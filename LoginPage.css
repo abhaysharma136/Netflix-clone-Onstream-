@@ -1,0 +1,45 @@
+.links{
+    height: 150px;
+    list-style: none;
+    display: grid;
+grid-template-columns: 1fr 1fr;
+font-size: small;
+margin-left: 10px;
+row-gap: 0px;
+margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: #757575;
+}
+li:hover{
+    text-decoration: underline;
+}
+.All-link-element{
+    background-color: #000000BF;
+    width: 100%;
+    padding: 5px;
+    margin-top: 70px;
+}
+hr{
+    display: none;
+}
+#language-option{
+    width: 93px;
+    height: 28px;
+    border:1px solid white;
+    background-color: transparent;
+    color: white;
+    }
+@media (max-width:600px) {
+    body{
+        background-image: none;
+        background-color: black;
+    }
+    hr{
+        margin-top: 70px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    
+}
